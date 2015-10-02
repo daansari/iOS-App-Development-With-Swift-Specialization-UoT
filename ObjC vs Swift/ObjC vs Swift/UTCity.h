@@ -13,4 +13,18 @@
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, assign) NSInteger population;
 
+- (instancetype)initWithName:(NSString *)name andPopulation:(NSInteger)population;
+
+@end
+
+@interface UTCounty : NSObject
+
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSArray *cities;
+
+- (instancetype)initWithName:(NSString *)name andCities:(NSArray *)cities;
+- (UTCity *)findCityWithName:(NSString *)name;
+
+@property (nonatomic, strong, readonly) UTCity *cityWithLargestPopulation;
+
 @end

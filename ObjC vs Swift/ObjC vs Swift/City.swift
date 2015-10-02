@@ -17,3 +17,37 @@ class City {
         self.population = population
     }
 }
+
+class Country {
+    let name: String
+    let cities: [City]
+    
+    init(name: String, cities: [City]) {
+        self.name = name
+        self.cities = cities
+    }
+    
+    func findCityWithName(name: String) -> City? {
+        for city in cities {
+            if city.name == name {
+                return city
+            }
+        }
+        return nil
+    }
+    
+    var cityWithLargestPopulation: City {
+        var maxPopulation = 0
+        var largestCity: City = cities[0]
+        
+        for city in cities {
+            if (city.population > maxPopulation) {
+                largestCity = city
+                maxPopulation = city.population
+            }
+        }
+        
+        return largestCity
+    }
+}
+

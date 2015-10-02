@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0E2F8BA1BBE92D900775B94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2F8B91BBE92D900775B94 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
 		A0F1E3E11BBD8D2C0061BC90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1E3E01BBD8D2C0061BC90 /* AppDelegate.swift */; };
 		A0F1E3E31BBD8D2C0061BC90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1E3E21BBD8D2C0061BC90 /* ViewController.swift */; };
 		A0F1E3E61BBD8D2C0061BC90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0F1E3E41BBD8D2C0061BC90 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0E2F8B81BBE92D900775B94 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0E2F8B91BBE92D900775B94 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A0F1E3DD1BBD8D2C0061BC90 /* ObjC vs Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjC vs Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F1E3E01BBD8D2C0061BC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0F1E3E21BBD8D2C0061BC90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				A0F1E3E01BBD8D2C0061BC90 /* AppDelegate.swift */,
+				A0E2F8B81BBE92D900775B94 /* AppDelegate.h */,
+				A0E2F8B91BBE92D900775B94 /* AppDelegate.m */,
 				A0F1E3E21BBD8D2C0061BC90 /* ViewController.swift */,
 				A0F1E3E41BBD8D2C0061BC90 /* Main.storyboard */,
 				A0F1E3E71BBD8D2C0061BC90 /* Assets.xcassets */,
@@ -149,6 +154,7 @@
 				A0F1E3F71BBD8D900061BC90 /* UTCity.m in Sources */,
 				A0F1E3E11BBD8D2C0061BC90 /* AppDelegate.swift in Sources */,
 				A0F1E3F31BBD8D6E0061BC90 /* City.swift in Sources */,
+				A0E2F8BA1BBE92D900775B94 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +309,7 @@
 				A0F1E3F11BBD8D2C0061BC90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
